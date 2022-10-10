@@ -45,8 +45,8 @@ public class Main {
       //  System.out.println(upperCase2SpaceBack(str));
       //  System.out.println(findNumbers(str));
       //  System.out.println(findUpperCase(str));
-      //  System.out.println(findLowerCaseAndRU(str));
-        System.out.println(lowerCaseToUpper(str));
+        System.out.println("маленькие буквы eu & ru ="+findLowerCaseAndRU(str));  //15
+        System.out.println(lowerCaseToUpper(str));                               // вроде 16, она точно есть
     }
 
     public static String upperCase2Space(String str){
